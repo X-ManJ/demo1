@@ -7,6 +7,7 @@ public class TestController {
     @RequestMapping("/test")
     public String say(){
         System.out.println("第一次输出");
+        System.out.println("第二次输出");
         return "hello";
     }
 }
